@@ -1,13 +1,13 @@
 #include<iostream>
 using namespace std;
 int main(){
-float a,b,
-char op,
-cout<<"enter first number "<<endl;
+double a,b;
+char op;
+cout<<"enter first number ";
 cin>>a;
-cout<<"enter operator "<<endl;
+cout<<"enter operator ";
 cin>>op;
-cout<<"enter second number "<<endl;
+cout<<"enter second number ";
 switch (op){
   case '+':
   cout<<a+b;
@@ -20,7 +20,7 @@ switch (op){
   break;
   case '/':
   cout<<a/b;
-  break:
+  break;
 }
 return 0;
 }
