@@ -8,6 +8,7 @@ cin>>a;
 cout<<"enter operator ";
 cin>>op;
 cout<<"enter second number ";
+cin>>b;
 switch (op){
   case '+':
   cout<<a+b;
